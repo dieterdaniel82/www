@@ -1,0 +1,116 @@
+@charset "UTF-8";
+#streifen-links {
+	background-image: url(img/streifen-links.jpg);
+	background-repeat: repeat-x;
+	float: left;
+	height: 100%;
+	width: 4%;
+}
+
+body {
+	margin:0px;
+}
+
+#btn-hilfe-anfragen {
+	font-family: Roboto, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+	font-size: 36px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	background-color: #33cc99;
+	width: 100%;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 120px;
+}
+
+#btn-mein-profil {
+	font-family: Roboto, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+	font-size: 36px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	background-color: #ff9933;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 48%;
+	float:left;
+
+}
+
+#btn-aktuelle-hilfeanfragen {
+	font-family: Roboto, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+	font-size: 36px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	background-color: #ff6666;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 48%;
+	display:block;
+	float:right;
+}
+
+#btn-nachrichten {
+	font-family: Roboto, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+	font-size: 36px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	background-color: #993366;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 48%;
+	display:block;
+	float:left;
+}
+
+#btn-einstellungen {
+	font-family: Roboto, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+	font-size: 36px;
+	font-weight: lighter;
+	color: #FFFFFF;
+	background-color: #999999;
+	text-align: center;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	width: 48%;
+	float:right;
+}
+
+a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+/* ################ Mein Profil ################ */
+.form-mein-profil {
+	padding: 1em;
+	background-color: #ff6633;
+	font-family: Roboto, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+	font-weight: lighter;
+	color: #FFFFFF;
+}
+
+.form-mein-profil button {
+
+	border: none;
+	font-family: Roboto, "Andale Mono", "Lucida Console", Monaco, "Courier New", monospace;
+	font-weight: lighter;
+	color: #000000;
+}
+
+.form-mein-profil select[multiple] {
+	width: 100%; height: 8em;
+}
+
+.form-mein-profil h2 {
+	margin-top: 0.4em;
+}
+
+select {
+
+}
+
+
